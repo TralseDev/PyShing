@@ -15,7 +15,7 @@ PythonPhishing is a powerful phishing written in python. It works with Python Fl
 Python version 3.5 - 3.9
 ```
 git clone https://github.com/TralseDev/PyShing.git
-pip3 install requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ### Executing program
@@ -24,7 +24,7 @@ python3 main.py
 ```
 
 
-## Custom pages
+## Custom templates
 * I step:
     * To create a custom phishing page you have to create a directory inside `/sites` with the name of the website (name like Facebook or Twitter not URL like facebook.com or twitter.com!). There you have to create a file named `url.txt`, where you write the url in it. That's the directory all data and phished credentials will be saved in!
 
