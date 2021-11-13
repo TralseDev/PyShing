@@ -49,11 +49,6 @@ python3 main.py
     * All templates look 100%ly like the real templates!
 
 
-## Pro tip:
-* Ngrok:
-    * If you are ng
-
-
 ## Authors
 
 Tralse
