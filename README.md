@@ -38,6 +38,22 @@ python3 main.py
 *Note:* We will be thankful for sent finished templates! <3
 
 
+## Features:
+* Ngrok
+    * PyShing uses Ngrok for port tunneling.
+        * If ngrok is not installed it gets installed automatically. Note: The downloaded ngrok binary could not run because of different architectures! If so download ngrok yourself and choose the appropriate binary!
+    * Pro tip: if you are Ngrok pro user:
+        * Start Ngrok `ngrok http 1337 -hostname whatever.com` with the wanted preferences and legit-looking hostname before PyShing to use that URL!
+
+* 1:1 templates
+    * All templates look 100%ly like the real templates!
+
+
+## Pro tip:
+* Ngrok:
+    * If you are ng
+
+
 ## Authors
 
 Tralse
