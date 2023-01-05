@@ -26,10 +26,10 @@ python3 main.py
 
 ## Custom templates
 * I step:
-    * To create a custom phishing page you have to create a directory inside `/sites` with the name of the website (name like Facebook or Twitter not URL like facebook.com or twitter.com!). There you have to create a file named `url.txt`, where you write the url in it. That's the directory all data and phished credentials will be saved in!
+    * To create a custom phishing page you have to create a directory inside `/sites` with the name of the website (the Label1 like `Facebook` or `Twitter` and not the domain like `facebook.com` or `twitter.com`!). There you have to create a file named `url.txt`, where you write the url in it. That's the directory all data and phished credentials will be saved in!
 
 * II step:
-    * Visit the original web page, copy the COMPLETE HTML source into a file. Rename file to website's name + `.html` (i.e. github.html). Make sure to change `form`'s action to `/creds`, to recieve credentials server-sided! Also don't forget to set `name` attribute of username / email / phone input field to `username` and password's input field to `password`.
+    * Visit the original web page, copy the COMPLETE HTML source into a file. Rename file to website's name + `.html` (i.e. `github.html`). Make sure to change `form`'s action to `/creds`, to recieve credentials server-sided! Also don't forget to set `name` attribute of username / email / phone input field to `username` and password's input field to `password`.
     * *Note:* If you should get problems with the page or any JS script interrupts the page remove it! PyShing doesn't correct or parse your HTML files, so if they are corrupted they will stay corrupted!
 
 * III step:
